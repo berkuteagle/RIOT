@@ -1,5 +1,7 @@
 CPU_MODEL = stm32f411ce
 
+FEATURES_PROVIDED += riotboot
+
 include $(RIOTBOARD)/common/weact-f4x1cx/Makefile.features
 
 # weact-f411ce provides a custom default Kconfig clock configuration
